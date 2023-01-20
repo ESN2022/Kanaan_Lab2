@@ -13,7 +13,7 @@ In addition, a timer could be added to generate an interrupt. However, due to th
 #C. Progress Results
 Here is a video showing how the counter works.
 
-https://user-images.githubusercontent.com/114091388/213650267-9d189570-15ee-45a5-a6b6-62610175f15f.mp4
+https://drive.google.com/file/d/1JfYR5k8XSnm8nUUBtkmp1LzavoGdcA57/view?usp=share_link
 
 However, this counter needs further VHDL code optimization and is not working 100% as intended. This is because the VHDL code is taking the 0xA to 0XF iterations in the VHDL.
 

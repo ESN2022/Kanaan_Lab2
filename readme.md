@@ -2,13 +2,14 @@
 
 #A. Introduction
 
-In this lab we learned how to implement a counter that uses a 7 segment display
+In this lab we learned how to implement a 7 segment display.
 
 #B. System architecture
 Here is our qsys design which uses a pio with 12 bit width to implement a 3 digit 7 segment display 
 ![image](https://user-images.githubusercontent.com/114091388/213644590-17aef844-bef2-426c-b370-ecb0e177d899.png)
 
 In addition, a timer could be added to generate an interrupt. However, due to the lack of time. This step and subsequent steps were not done.
+Furthermore, we created a simple c code to display a count on the 3 7-segment displays.
 
 #C. Progress Results
 Here is a video showing how the counter works.

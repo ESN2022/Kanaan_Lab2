@@ -40,9 +40,9 @@
 int main(void){
 	int i=0;
 	while(1){
-		for (i=0;i<10;i++){
+		for (i=0;i<999;i++){
 			IOWR_ALTERA_AVALON_PIO_DATA(PIO_0_BASE,i);
-			usleep(300000);
+			usleep(100000);
 		}
 	}
 	return 0;

@@ -4,8 +4,8 @@ use ieee.numeric_std.all;
 
 entity lab2 is
 	port (
-		clock    :	in		std_logic;
-		reset    :	in		std_logic;
+		clock    :	in		std_logic :='0';
+		reset    :	in		std_logic :='0';
 		out_seg	:	out	std_logic_vector(23 downto 0)
 	);
 end entity;
@@ -41,7 +41,7 @@ architecture RTL of lab2 is
 	
 	seven_seg1 : component bin_to_7seg
 			port map (
-				bin => out_signal	(3 downto 0),
+				bin => out_signal	(3 downto 0) := (others => 'X'),
 				seg => out_seg		(7 downto 0)
 	);
 	seven_seg2 : component bin_to_7seg
